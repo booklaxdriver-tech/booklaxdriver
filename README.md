@@ -2,11 +2,15 @@
 
 BookLaxDriver is a private LAX airport chauffeur and transfer service website for Los Angeles and surrounding cities.
 
-## Live website
+## Live Website
 
 Primary WordPress.com site:
 
 - https://booklaxdriver-ptljd.wordpress.com
+
+Do not use the old test site:
+
+- https://booklaxdriver-itxey.wordpress.com
 
 Custom domain planned:
 
@@ -18,50 +22,46 @@ Custom domain planned:
 - WhatsApp link: https://wa.me/17028822810
 - Email: booklaxdriver@gmail.com
 
-## Project roles
+## Project Roles
 
 - WordPress.com: primary customer-facing website
-- Hostinger: domain registration and DNS
-- GitHub: source backup, version control, testing, and optional static deployment
+- Hostinger: domain registration and DNS for `booklaxdriver.com`
+- GitHub: source backup, version control, testing records, and optional static recovery package
 
-## Local development
+## Current Launch Status
 
-```bash
-npm install
-npm run dev
-```
+Ready:
 
-## Production build
+- Correct WordPress site is public and not Coming Soon.
+- Homepage positioning, WhatsApp CTA flow, and payment safety wording are in place.
+- Static fallback package has passed local HTTP and ZIP checks.
+- GitHub backup repository is active.
 
-```bash
-npm run build
-npm run preview
-```
+Still blocking final launch:
 
-## Quality checks
+- WordPress content cleanup on the correct `ptljd` site.
+- `booklaxdriver.com` domain connection through Hostinger/DNS.
+- Real-domain HTTPS test.
+- Mobile WhatsApp CTA test on the public domain.
+- Hosted payment link workflow.
+- Final deposit/cancellation/wait/no-show policy approval.
 
-```bash
-npm run lint
-npm test
-```
+## Safety Rules
 
-## Safety rules
-
-- Never collect credit card numbers directly in website forms.
+- Never collect credit card numbers directly in website forms or WhatsApp.
 - Use a verified Stripe, Square, or other hosted payment link for payments.
+- Booking is confirmed only after trip details, quote/terms, payment or deposit, and final confirmation.
 - Do not commit API keys, payment secrets, passwords, or private customer information.
-- Commercial insurance wording must remain subject to policy terms and service conditions.
 
-## Launch checklist
+## Launch Checklist
 
 - [x] GitHub repository created
-- [x] Project configuration initialized
-- [ ] Website source synchronized
-- [ ] Automated build check enabled
-- [ ] Mobile booking flow verified
-- [ ] WhatsApp buttons verified
+- [x] Static package backed up
+- [x] WhatsApp number wired as `17028822810`
+- [x] Supervision board recorded
 - [ ] WordPress placeholder content removed
-- [ ] WordPress site launched
-- [ ] booklaxdriver.com connected
+- [ ] WordPress comments disabled on business pages
+- [ ] `booklaxdriver.com` connected
 - [ ] HTTPS verified
+- [ ] Mobile WhatsApp buttons verified
 - [ ] Hosted payment link connected
