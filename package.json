@@ -1,5 +1,5 @@
 {
-  "name": "booklaxdriver-v1",
+  "name": "booklaxdriver",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -7,15 +7,14 @@
     "dev": "vite --host 0.0.0.0 --port 5173",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0 --port 4173",
-    "test": "playwright test",
-    "lint": "node scripts/check-files.js"
+    "lint": "node scripts/check-files.js",
+    "test": "playwright test"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
     "vite": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "stripe": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@playwright/test": "latest"
