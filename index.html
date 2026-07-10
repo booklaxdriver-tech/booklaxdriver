@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BookLaxDriver | Private LAX Pickup & VIP Chauffeur Service in Los Angeles</title>
+  <meta name="description" content="Premium private LAX pickup, VIP chauffeur service, executive rides, LA tours, business visits, and secure WhatsApp booking support in Los Angeles.">
+  <meta property="og:title" content="BookLaxDriver | Private LAX Pickup & VIP Chauffeur Service in Los Angeles">
+  <meta property="og:description" content="Premium private LAX pickup, VIP chauffeur service, executive rides, LA tours, business visits, and secure WhatsApp booking support in Los Angeles.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f1b1f">
+</head>
+<body>
+<style>
+  .bld-page { --bld-ink: #141414; --bld-muted: #5f646b; --bld-line: #e8e2da; --bld-gold: #b48a46; --bld-deep: #0f1b1f; --bld-soft: #f7f3ee; --bld-white: #ffffff; color: var(--bld-ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.5; }
+  .bld-page * { box-sizing: border-box; }
+  .bld-section { padding: 72px 20px; }
+  .bld-section--soft { background: var(--bld-soft); }
+  .bld-section--dark { background: var(--bld-deep); color: var(--bld-white); }
+  .bld-wrap { max-width: 1120px; margin: 0 auto; }
+  .bld-hero { min-height: 680px; display: flex; align-items: center; background: linear-gradient(90deg, rgba(8, 15, 18, .88), rgba(8, 15, 18, .62), rgba(8, 15, 18, .18)), url("https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1800&q=82") center/cover no-repeat; color: #fff; padding: 88px 20px; }
+  .bld-hero__content { max-width: 720px; }
+  .bld-kicker { color: var(--bld-gold); font-size: 13px; font-weight: 800; letter-spacing: 0; margin: 0 0 14px; text-transform: uppercase; }
+  .bld-hero h1 { font-size: clamp(42px, 6vw, 72px); line-height: .98; letter-spacing: 0; margin: 0 0 22px; }
+  .bld-hero p { color: rgba(255,255,255,.88); font-size: 20px; max-width: 660px; margin: 0 0 28px; }
+  .bld-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 0 0 16px; }
+  .bld-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 13px 20px; border-radius: 6px; font-weight: 800; text-decoration: none; border: 1px solid transparent; transition: transform .18s ease, opacity .18s ease; }
+  .bld-btn:hover { transform: translateY(-1px); opacity: .92; }
+  .bld-btn--gold { background: var(--bld-gold); color: #111; }
+  .bld-btn--outline { color: #fff; border-color: rgba(255,255,255,.45); }
+  .bld-helper { color: rgba(255,255,255,.76); font-size: 14px; max-width: 560px; margin: 0 0 28px; }
+  .bld-hero__points { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 18px; max-width: 700px; margin-top: 28px; }
+  .bld-hero__points span, .bld-trust span { display: flex; gap: 8px; align-items: center; }
+  .bld-hero__points span::before, .bld-trust span::before { content: ""; width: 7px; height: 7px; border-radius: 99px; background: var(--bld-gold); flex: 0 0 auto; }
+  .bld-trust { display: flex; flex-wrap: wrap; gap: 14px 24px; justify-content: center; border-bottom: 1px solid var(--bld-line); padding: 20px; font-size: 14px; font-weight: 750; }
+  .bld-heading { max-width: 760px; margin: 0 0 34px; }
+  .bld-heading h2 { font-size: clamp(30px, 4vw, 48px); line-height: 1.08; margin: 0 0 12px; letter-spacing: 0; }
+  .bld-heading p { color: var(--bld-muted); font-size: 18px; margin: 0; }
+  .bld-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+  .bld-card { background: #fff; border: 1px solid var(--bld-line); border-radius: 8px; padding: 24px; }
+  .bld-card h3 { font-size: 21px; margin: 0 0 10px; letter-spacing: 0; }
+  .bld-card p { color: var(--bld-muted); margin: 0; }
+  .bld-vehicles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+  .bld-vehicle { background: #fff; border: 1px solid var(--bld-line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
+  .bld-vehicle img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+  .bld-vehicle__body { padding: 20px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+  .bld-vehicle h3 { font-size: 20px; margin: 0; }
+  .bld-vehicle p { color: var(--bld-muted); margin: 0; }
+  .bld-vehicle .bld-btn { width: 100%; margin-top: auto; }
+  .bld-steps { counter-reset: bld-step; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+  .bld-step { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); border-radius: 8px; padding: 20px; }
+  .bld-step::before { counter-increment: bld-step; content: counter(bld-step); display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 99px; background: var(--bld-gold); color: #111; font-weight: 900; margin-bottom: 14px; }
+  .bld-step p { color: rgba(255,255,255,.86); margin: 0; font-weight: 700; }
+  .bld-payment { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: center; }
+  .bld-payment__box { background: #fff; border: 1px solid var(--bld-line); border-radius: 8px; padding: 28px; }
+  .bld-payment__box strong { display: block; font-size: 18px; margin-bottom: 10px; }
+  .bld-faq { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .bld-faq details { background: #fff; border: 1px solid var(--bld-line); border-radius: 8px; padding: 18px 20px; }
+  .bld-faq summary { cursor: pointer; font-weight: 850; }
+  .bld-faq p { color: var(--bld-muted); margin: 12px 0 0; }
+  .bld-final { text-align: center; max-width: 720px; margin: 0 auto; }
+  .bld-final h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.05; margin: 0 0 14px; }
+  .bld-final p { color: rgba(255,255,255,.82); font-size: 18px; margin: 0 0 24px; }
+  .bld-floating { position: fixed; right: 18px; bottom: 18px; z-index: 999; box-shadow: 0 14px 40px rgba(0,0,0,.22); }
+  @media (max-width: 900px) { .bld-hero { min-height: auto; padding: 72px 20px; } .bld-grid, .bld-vehicles, .bld-steps, .bld-payment, .bld-faq { grid-template-columns: 1fr; } .bld-hero__points { grid-template-columns: 1fr; } }
+</style>
+
+<div class="bld-page">
+  <section class="bld-hero"><div class="bld-wrap"><div class="bld-hero__content"><p class="bld-kicker">BookLaxDriver VIP Concierge</p><h1>Private LAX Pickup and VIP Chauffeur Service in Los Angeles</h1><p>BookLaxDriver helps travelers, business visitors, families, and VIP guests move through Los Angeles with private airport pickup, premium vehicles, punctual timing, and a smooth WhatsApp booking flow.</p><div class="bld-actions"><a class="bld-btn bld-btn--gold" href="https://wa.me/17028822810?text=Hi%2C%20I%20would%20like%20to%20check%20availability%20for%20BookLaxDriver.%0A%0AMy%20trip%20details%3A%0A-%20Date%20and%20time%3A%0A-%20Flight%20number%20or%20pickup%20address%3A%0A-%20Drop-off%20address%3A%0A-%20Passenger%20count%3A%0A-%20Luggage%20count%3A%0A-%20Preferred%20vehicle%3A">Get a Quote on WhatsApp</a><a class="bld-btn bld-btn--outline" href="#vehicles">View Vehicles</a></div><p class="bld-helper">Send your date, pickup, destination, passenger count, luggage count, and preferred vehicle for faster availability checking.</p><div class="bld-hero__points"><span>Private LAX pickup and drop-off</span><span>VIP chauffeur and executive rides</span><span>Business visits and real estate tours</span><span>LA local guide and photo/video support</span><span>Secure payment link before final booking confirmation</span></div></div></div></section>
+  <div class="bld-trust"><span>LAX-focused pickup planning</span><span>Luxury vehicle options</span><span>Fast WhatsApp response</span><span>Clear quote before payment</span><span>Secure payment handoff</span></div>
+  <section class="bld-section"><div class="bld-wrap"><div class="bld-heading"><p class="bld-kicker">Services</p><h2>Premium Chauffeur Service for LAX, Business, and Private LA Travel</h2><p>Built for airport arrivals, executive schedules, premium family travel, and visitors who want a high-trust local driving experience.</p></div><div class="bld-grid"><div class="bld-card"><h3>LAX Pickup and Drop-off</h3><p>Private airport transportation with arrival timing, luggage planning, and pickup coordination.</p></div><div class="bld-card"><h3>VIP Chauffeur Service</h3><p>Professional private driver support for premium local travel, client hosting, and executive movement.</p></div><div class="bld-card"><h3>Business and Real Estate Visits</h3><p>Smooth multi-stop routing for meetings, property tours, investor visits, and business hosting.</p></div><div class="bld-card"><h3>LA Tours and Day Routes</h3><p>Custom Los Angeles and California routes with driver-guide support when needed.</p></div><div class="bld-card"><h3>Photo and Video Travel Support</h3><p>Arrival content, scenic route photos, and social-media-friendly assistance when timing allows.</p></div><div class="bld-card"><h3>Family and Luggage-Friendly Trips</h3><p>Vehicle matching based on passenger count, luggage, timing, comfort, and route complexity.</p></div></div></div></section>
+  <section id="vehicles" class="bld-section bld-section--soft"><div class="bld-wrap"><div class="bld-heading"><p class="bld-kicker">Vehicles</p><h2>Choose the Right Vehicle for Your Arrival, Meeting, or Private Route</h2><p>Each vehicle option is matched around comfort, luggage, image, timing, and trip type so you can move into WhatsApp with confidence.</p></div><div class="bld-vehicles"><article class="bld-vehicle"><img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=900&q=80" alt="BMW sedan for private Los Angeles chauffeur service"><div class="bld-vehicle__body"><h3>BMW 5 Series</h3><p>Best for solo travelers, airport transfers, and polished business rides.</p><a class="bld-btn bld-btn--gold" href="https://wa.me/17028822810?text=Hi%2C%20I%20would%20like%20to%20ask%20about%20BMW%205%20Series%20availability%20for%20BookLaxDriver.">Ask About BMW 5 Series</a></div></article><article class="bld-vehicle"><img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=900&q=80" alt="Mercedes sedan for executive chauffeur pickup"><div class="bld-vehicle__body"><h3>Mercedes-Benz E-Class</h3><p>Best for executive comfort, premium airport pickup, and client-facing arrivals.</p><a class="bld-btn bld-btn--gold" href="https://wa.me/17028822810?text=Hi%2C%20I%20would%20like%20to%20ask%20about%20Mercedes-Benz%20E-Class%20availability%20for%20BookLaxDriver.">Ask About Mercedes E-Class</a></div></article><article class="bld-vehicle"><img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=900&q=80" alt="Luxury SUV for VIP airport pickup in Los Angeles"><div class="bld-vehicle__body"><h3>Cadillac Escalade</h3><p>Best for VIP arrivals, family comfort, luxury airport pickup, and high-presence service.</p><a class="bld-btn bld-btn--gold" href="https://wa.me/17028822810?text=Hi%2C%20I%20would%20like%20to%20ask%20about%20Cadillac%20Escalade%20availability%20for%20BookLaxDriver.">Ask About Escalade</a></div></article><article class="bld-vehicle"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=900&q=80" alt="Large SUV for family and luggage airport pickup"><div class="bld-vehicle__body"><h3>Suburban / GMC Yukon</h3><p>Best for extra luggage, families, groups, and longer private routes.</p><a class="bld-btn bld-btn--gold" href="https://wa.me/17028822810?text=Hi%2C%20I%20would%20like%20to%20ask%20about%20Suburban%20or%20GMC%20Yukon%20availability%20for%20BookLaxDriver.">Ask About SUV Availability</a></div></article></div></div></section>
+  <section class="bld-section bld-section--dark"><div class="bld-wrap"><div class="bld-heading"><p class="bld-kicker">Booking Flow</p><h2>How Booking Works</h2></div><div class="bld-steps"><div class="bld-step"><p>Send your trip details on WhatsApp.</p></div><div class="bld-step"><p>We confirm route, timing, vehicle, and availability.</p></div><div class="bld-step"><p>We send the quote and service terms.</p></div><div class="bld-step"><p>You confirm and receive a secure payment link.</p></div><div class="bld-step"><p>Your booking is locked in after payment/deposit and final confirmation.</p></div></div></div></section>
+  <section class="bld-section"><div class="bld-wrap bld-payment"><div class="bld-heading"><p class="bld-kicker">Payment</p><h2>Secure Payment After Quote Confirmation</h2><p>Payment happens only after availability, route, vehicle, and price are confirmed in writing.</p></div><div class="bld-payment__box"><strong>No card numbers in chat.</strong><p>After availability, route, vehicle, and price are confirmed, we send a secure payment link or invoice for your deposit or balance. BookLaxDriver does not collect card numbers directly on this website or inside WhatsApp.</p></div></div></section>
+  <section class="bld-section bld-section--soft"><div class="bld-wrap"><div class="bld-heading"><p class="bld-kicker">FAQ</p><h2>Common Booking Questions</h2></div><div class="bld-faq"><details open><summary>Do you provide LAX pickup and drop-off?</summary><p>Yes. BookLaxDriver supports private LAX pickup and drop-off with timing, luggage, and arrival coordination.</p></details><details><summary>What details do you need for a quote?</summary><p>Please send date and time, flight number or pickup address, destination, passenger count, luggage count, preferred vehicle, and any VIP, tour, business, or photo/video needs.</p></details><details><summary>Which vehicle should I choose?</summary><p>BMW 5 Series and Mercedes E-Class are strong for solo travelers and executive rides. Cadillac Escalade, Suburban, or GMC Yukon are better for VIP presence, families, extra luggage, and longer routes.</p></details><details><summary>Can you help with business visits or real estate tours?</summary><p>Yes. We can support multi-stop business schedules, client hosting, property visits, meetings, and waiting time between stops.</p></details><details><summary>How does payment work?</summary><p>After trip details, price, and terms are confirmed, we send a secure payment link or invoice. Please do not send credit card numbers in WhatsApp.</p></details><details><summary>When is my booking confirmed?</summary><p>Your booking is confirmed after the trip details are approved, payment or deposit is received, and BookLaxDriver sends the final confirmation.</p></details></div></div></section>
+  <section class="bld-section bld-section--dark"><div class="bld-wrap bld-final"><h2>Ready to Check Availability?</h2><p>Send your trip details on WhatsApp now and we will help match the right vehicle, confirm the route, and move you to the next step quickly.</p><a class="bld-btn bld-btn--gold" href="https://wa.me/17028822810?text=Hi%2C%20I%20would%20like%20to%20check%20availability%20for%20BookLaxDriver.%0A%0AMy%20trip%20details%3A%0A-%20Date%20and%20time%3A%0A-%20Flight%20number%20or%20pickup%20address%3A%0A-%20Drop-off%20address%3A%0A-%20Passenger%20count%3A%0A-%20Luggage%20count%3A%0A-%20Preferred%20vehicle%3A">Start on WhatsApp</a></div></section>
+  <a class="bld-btn bld-btn--gold bld-floating" href="https://wa.me/17028822810?text=Hi%2C%20I%20would%20like%20to%20check%20availability%20for%20BookLaxDriver.">Chat on WhatsApp</a>
+</div>
+</body>
+</html>
