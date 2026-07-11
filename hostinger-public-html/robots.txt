@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /submit-booking.php
+
+Sitemap: https://booklaxdriver.com/sitemap.xml
